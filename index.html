@@ -338,9 +338,10 @@ tr:hover td{background:#fafcfe}
 <nav class="nav">
 <a href="#sec-summary" class="active"><span class="ico">📋</span>0·总览</a>
 <a href="#sec-overall"><span class="ico">📊</span>1·整体数据</a>
-<a href="#sec-rooms"><span class="ico">🎥</span>2·分直播间细拆</a>
-<a href="#sec-material"><span class="ico">🎬</span>3·素材洞察</a>
-<a href="#sec-product"><span class="ico">🧪</span>4·产品及扶持</a>
+<a href="#sec-delivery"><span class="ico">🎯</span>2·投放分析</a>
+<a href="#sec-rooms"><span class="ico">🎥</span>3·分直播间细拆</a>
+<a href="#sec-material"><span class="ico">🎬</span>4·素材洞察</a>
+<a href="#sec-product"><span class="ico">🧪</span>5·产品及扶持</a>
 </nav>
 <div class="wrap">
 <section id="sec-summary">
@@ -520,8 +521,142 @@ window.addEventListener('load',function(){
 });
 </script>
 </section>
+<section id="sec-delivery">
+<h2>2 · 投放分析 · 智投类型 & 优化目标组合</h2>
+<p style="color:#64748b;font-size:12.5px;margin:0 0 12px">从「广告智投类型」（分链路视角看跑量方式差异）和「优化目标组合」（看深/浅层目标结构）两个维度，评估投放结构是否健康。</p>
+
+<h3 style="margin:12px 0 8px;font-size:16px;color:#2176d2">🛒 2.1 投放智投类型结构（分链路）</h3>
+
+<h4 class="del-h4">🎬 直播链路 · 智投类型结构</h4>
+<div style="overflow-x:auto">
+<table class="del-table">
+<thead><tr>
+<th>智投类型</th><th>占比</th><th>日均消耗</th>
+<th>CTR (%)</th><th>CVR (%)</th><th>ROI</th><th>CPA</th><th>评价</th>
+</tr></thead>
+<tbody><tr>
+<td>单链路智投</td>
+<td>49.4%</td>
+<td>¥9,326</td>
+<td class="red-number">1.26</td>
+<td>3.18</td>
+<td class="">2.03</td>
+<td class="red-number">188.3</td>
+<td><span class="del-tag main">主力盘</span></td>
+</tr><tr>
+<td>非智投广告</td>
+<td>27.8%</td>
+<td>¥5,250</td>
+<td class="">1.98</td>
+<td>3.23</td>
+<td class="">2.34</td>
+<td class="">153.0</td>
+<td><span class="del-tag ok">ROI 稳健</span></td>
+</tr><tr>
+<td>短直双开</td>
+<td>22.8%</td>
+<td>¥4,309</td>
+<td class="">1.66</td>
+<td>2.67</td>
+<td class="">2.30</td>
+<td class="">160.4</td>
+<td><span class="del-tag ok">ROI 稳健</span></td>
+</tr></tbody>
+</table>
+</div>
+<h4 class="del-h4">🎬 小店链路 · 智投类型结构</h4>
+<div style="overflow-x:auto">
+<table class="del-table">
+<thead><tr>
+<th>智投类型</th><th>占比</th><th>日均消耗</th>
+<th>CTR (%)</th><th>CVR (%)</th><th>ROI</th><th>CPA</th><th>评价</th>
+</tr></thead>
+<tbody><tr>
+<td>短直双开</td>
+<td>100.0%</td>
+<td>¥4,509</td>
+<td class="green-number">2.63</td>
+<td>2.47</td>
+<td class="green-number">2.58</td>
+<td class="green-number">142.6</td>
+<td><span class="del-tag main">主力盘</span> <span class="del-tag star">效率标杆 · 应加码</span></td>
+</tr></tbody>
+</table>
+</div>
+<div class="del-conclu"><b>✅ 结论：</b><br>· <b>直播链路</b>主力为 <b>单链路智投</b>（占比 <b>49.4%</b>、ROI 2.03）；效率标杆 <b>非智投广告</b>（ROI <b class="green-number">2.34</b>、占比 27.8%）。<br>· <b>小店链路</b>主力为 <b>短直双开</b>（占比 <b>100.0%</b>、ROI 2.58）；效率标杆 <b>短直双开</b>（ROI <b class="green-number">2.58</b>、占比 100.0%）。<br><br>📌 <b>整体判断</b>：两条链路都以「短直双开 / 单链路智投」等智投类型为核心跑量方式，非智投占比仅在直播链路较高（44%）。直播链路的 <b>单链路智投</b> 占比 <b class="hl">49%</b>，是消耗主力但 ROI 仅 2.03——建议对 ROI 偏低的智投类型开启 3.0MAX 或调整素材投喂，把 ROI 拉回 2.2+；小店 <b>短直双开</b> ROI 2.58 是全链路效率标杆，可考虑把预算规模再扩 50%+。</div>
+
+<h3 style="margin:22px 0 8px;font-size:16px;color:#2176d2">🎯 2.2 优化目标组合结构</h3>
+<div style="overflow-x:auto">
+<table class="del-table">
+<thead><tr>
+<th>优化目标</th><th>占比</th><th>日均消耗</th><th>ROI</th><th>CPA</th><th>评价</th>
+</tr></thead>
+<tbody><tr>
+<td>下单-下单ROI</td>
+<td>46.1%</td>
+<td>¥10,783</td>
+<td class="">2.18</td>
+<td class="">167.6</td>
+<td><span class="del-tag main">主力目标</span></td>
+</tr><tr>
+<td>下单</td>
+<td>40.0%</td>
+<td>¥9,361</td>
+<td class="">2.33</td>
+<td class="">156.2</td>
+<td><span class="del-tag main">主力目标</span> <span class="del-tag ok">ROI 稳健</span></td>
+</tr><tr>
+<td>24小时下单</td>
+<td>8.6%</td>
+<td>¥2,018</td>
+<td class="">2.06</td>
+<td class="red-number">217.2</td>
+<td><span class="del-tag mid">保持</span></td>
+</tr><tr>
+<td>下单-二十四小时退款率</td>
+<td>5.1%</td>
+<td>¥1,196</td>
+<td class="green-number">2.63</td>
+<td class="green-number">138.8</td>
+<td><span class="del-tag star">ROI 冠军 · 建议提量</span></td>
+</tr><tr>
+<td>二十四小时净成交成本</td>
+<td>0.1%</td>
+<td>¥20</td>
+<td class="red-number">0.60</td>
+<td class="red-number">611.1</td>
+<td><span class="del-tag warn">效率偏低</span></td>
+</tr><tr>
+<td>下单-辅助优化下单ROI</td>
+<td>0.1%</td>
+<td>¥18</td>
+<td class="green-number">2.55</td>
+<td class="green-number">135.7</td>
+<td><span class="del-tag star">ROI 冠军 · 建议提量</span> <span class="del-tag test">测试项 · 可放大</span></td>
+</tr></tbody>
+</table>
+</div>
+<div class="del-conclu"><b>✅ 结论：</b>当前以「<b>下单-下单ROI</b>」为主（占比 <b>46.1%</b>、ROI 2.18）+「<b>下单</b>」双目标（占比 40.0%）为核心；<b class="hl-g">「下单-二十四小时退款率」ROI 达 2.63</b>（占比仅 5.1%）是效率标杆，建议 <b>逐步提高其占比测试</b>，把整体 ROI 结构性拉高。</div>
+
+<style>
+.del-h4{margin:14px 0 6px;font-size:14px;color:#334155;font-weight:700}
+.del-table{width:100%;border-collapse:collapse;font-size:12.5px;margin-bottom:8px}
+.del-table thead th{background:linear-gradient(135deg,#2176d2,#3b82f6);color:#fff;padding:8px 10px;text-align:center;font-weight:600;font-size:12.5px;border:1px solid #1e40af}
+.del-table tbody td{padding:7px 10px;border:1px solid #e5e7eb;text-align:center;background:#fff}
+.del-table tbody tr:nth-child(odd) td{background:#f8fbff}
+.del-table tbody td:first-child{text-align:left;font-weight:600;color:#1e293b}
+.del-tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600;margin:1px 2px}
+.del-tag.main{background:#dbeafe;color:#1d4ed8}
+.del-tag.star{background:#dcfce7;color:#166534}
+.del-tag.ok{background:#f0fdf4;color:#166534}
+.del-tag.warn{background:#fee2e2;color:#b91c1c}
+.del-tag.test{background:#fef3c7;color:#a16207}
+.del-tag.mid{background:#f1f5f9;color:#475569}
+.del-conclu{background:#f0fdf4;border-left:4px solid #16a34a;border-radius:0 6px 6px 0;padding:12px 16px;margin:10px 0 4px;font-size:13px;color:#334155;line-height:1.8}
+</style>
+</section>
 <section id="sec-rooms">
-<h2>2 · 分直播间细拆（共 2 个直播间）</h2>
+<h2>3 · 分直播间细拆（共 2 个直播间）</h2>
 <p style="color:#666;font-size:13px">按本周期消耗规模排序，包含数据情况 / 直播间情况（人货场深度复盘）两个子面板。</p>
 <div class="room-card">
 <div class="room-head"><span class="room-name">🎥 BEIQUBAO贝曲宝</span>
@@ -634,7 +769,7 @@ document.getElementById('deep_0').innerHTML=`<div class="ls-grid">
 <div class="kv"><b>可探讨：</b>可尝试准备物理手写板/背景屏，写上「单买 ¥283 × 2 = ¥566 → 套餐仅 ¥3XX，立省 ¥220+」并当场用红笔圈出；赠品枕套建议实物在手抖动展示——最终执行形式由客户结合场景灵活选择。</div></div><div style="font-size:11.5px;color:#64748b;margin-top:8px;padding-left:12px;border-left:2px solid #dbeafe">💡 以上均为方向性建议，具体落地节奏、话术风格、视觉方案可由客户结合品牌定位与自家主播经验灵活把握——尤其温和的顾问式话风与专家型人设，是当前直播间「高信任 / 高停留」的核心资产。</div></div></div>`;
 </script>
 <section id="sec-material">
-<h2>3 · 素材洞察 · 三组对比 & Top 素材复盘</h2>
+<h2>4 · 素材洞察 · 三组对比 & Top 素材复盘</h2>
 <p style="color:#64748b;font-size:12.5px;margin:0 0 12px">对贝曲宝自身、大盘同类目婴童枕（卡伴 / 雅翎）、大盘家居寝具全类目头部三组素材做<b>消耗加权对照</b>；然后逐条复盘贝曲宝本月 10 条 Top 素材的图片 + 数据 + 核心亮点。</p>
 
 <h3 style="margin:8px 0 8px;font-size:16px;color:#2176d2">📊 三组数据对比 · 消耗加权</h3>
@@ -957,9 +1092,9 @@ document.getElementById('deep_0').innerHTML=`<div class="ls-grid">
 </div>
 </section>
 <section id="sec-product">
-<h2>4 · 产品及扶持信息一览</h2>
+<h2>5 · 产品及扶持信息一览</h2>
 <div class="grp grp-product">
-<h3 class="grp-title">4.1 · 产品能力介绍</h3>
+<h3 class="grp-title">5.1 · 产品能力介绍</h3>
 
 <div class="pi-card">
 <h3>🚀 潜客优投</h3>
@@ -988,7 +1123,7 @@ document.getElementById('deep_0').innerHTML=`<div class="ls-grid">
 
 </div>
 <div class="grp grp-support">
-<h3 class="grp-title">4.2 · 近期激励扶持</h3>
+<h3 class="grp-title">5.2 · 近期激励扶持</h3>
 
 <div class="sp-card">
 <h3>🎁 头客竞价激励（6~7 月）</h3>
